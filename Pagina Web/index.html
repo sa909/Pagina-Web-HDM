@@ -1,37 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
-    <title>Revista Digital Para 5tos Años </title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Como usar la Tecnologia sin Aburrirse</h1>
+    <h1>Calculadora</h1>
 
-    <p>La tecnología forma parte de nuestra vida diaria y puede ser una herramienta muy útil
-        para aprender, comunicarnos y divertirnos. Lo importante es aprender a utilizarla de
-        una manera responsable y aprovechar todas sus posibilidades.
-    </p>
+    <input type="text" id="numero1" placeholder="Primer número">
+    <input type="text" id="numero2" placeholder="Segundo número">
 
-    <h2>La tecnología para aprender</h2>
+    <br><br>
 
-    <p>Las computadoras, celulares y tablets nos permiten acceder a mucha información.
-        Podemos buscar información para hacer trabajos escolares, mirar videos educativos,
-        utilizar aplicaciones y aprender cosas nuevas de una manera más entretenida.
-    </p>
+    <button onclick="sumar()">+</button>
+    <button onclick="restar()">-</button>
+    <button onclick="multiplicar()">×</button>
+    <button onclick="dividir()">÷</button>
 
-    <h3>Aprender de una forma divertida</h3>
+    <h2 id="resultado">Resultado: </h2>
 
-    <p> También existen juegos y aplicaciones educativas que ayudan a aprender mientras nos
-        divertimos. Por ejemplo, podemos practicar matemática, idiomas, programación o
-        diferentes temas escolares mediante actividades interactivas.
-    </p>
+    <script src="script.js"></script>
 
-    <button id="boton">Haz clic aquí</button>
-
+</body>
+</html>
     <script src="script.js"></script>
 
 </body>
